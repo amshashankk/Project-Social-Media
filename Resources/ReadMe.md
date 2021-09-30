@@ -13,14 +13,14 @@
 
 It has the following unique features:
 
-Cross Field and Cross Struct validations by using validation tags or custom validators.
-Slice, Array and Map diving, which allows any or all levels of a multidimensional field to be validated.
-Ability to dive into both map keys and values for validation
-Handles type interface by determining it's underlying type prior to validation.
-Handles custom field types such as sql driver Valuer see Valuer
-Alias validation tags, which allows for mapping of several validations to a single tag for easier defining of validations on structs
-Extraction of custom defined Field Name e.g. can specify to extract the JSON name while validating and have it available in the resulting FieldError
-Customizable i18n aware error messages.
+- Cross Field and Cross Struct validations by using validation tags or custom validators.
+- Slice, Array and Map diving, which allows any or all levels of a multidimensional field to be validated.
+- Ability to dive into both map keys and values for validation
+- Handles type interface by determining it's underlying type prior to validation.
+- Handles custom field types such as sql driver Valuer see Valuer
+- Alias validation tags, which allows for mapping of several validations to a single tag for easier defining of validations on structs
+- Extraction of custom defined Field Name e.g. can specify to extract the JSON name while validating and have it available in the resulting FieldError
+- Customizable i18n aware error messages.
 
 <br>
 
